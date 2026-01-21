@@ -1,0 +1,30 @@
+[
+    {
+        "name": "aya",
+        "image_path": "assets/th/aya.png"
+    },
+    {
+        "name": "daiyousei",
+        "image_path": "assets/th/daiyousei.png"
+    },
+    {
+        "name": "hina",
+        "image_path": "assets/th/hina.png"
+    },
+    {
+        "name": "nitori",
+        "image_path": "assets/th/nitori.png"
+    },
+    {
+        "name": "rin",
+        "image_path": "assets/th/rin.png"
+    },
+    {
+        "name": "suwako",
+        "image_path": "assets/th/suwako.png"
+    },
+    {
+        "name": "yuyuko",
+        "image_path": "assets/th/yuyuko.png"
+    }
+]

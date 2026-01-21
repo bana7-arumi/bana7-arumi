@@ -1,0 +1,29 @@
+[project]
+name = "bana7-arumi"
+version = "0.1.0"
+description = "profile decoration☆ "
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pydantic>=2.12.5",
+    "pytest>=9.0.2",
+    "ruff>=0.14.13",
+]
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # pyflakes
+    "I",   # isort
+    "N",   # pep8-naming
+    "UP",  # pyupgrade
+    "B",   # flake8-bugbear
+]
+ignore = []
+
+fixable = ["ALL"]
+unfixable = []
