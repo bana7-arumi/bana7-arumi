@@ -15,8 +15,7 @@ class ReadmeMd(BaseModel):
     TODAYS_RESIDENT_START_TAG: ClassVar[str] = "<!-- todays-resident-start -->"
     TODAYS_RESIDENT_END_TAG: ClassVar[str] = "<!-- todays-resident-end -->"
     TODAYS_RESIDENT_TEMPLATE: ClassVar[str] = (
-        "**{resident_name}**\n\n"
-        "<img src='{resident_image_path}' width='200px'>"
+        "**{resident_name}**\n\n<img src='{resident_image_path}' width='200px'>"
     )
 
     content: Final[str]
@@ -32,14 +31,10 @@ class ReadmeMd(BaseModel):
             rf"({self.TODAYS_RESIDENT_START_TAG}).*?({self.TODAYS_RESIDENT_END_TAG})",
             re.DOTALL,
         )
-        print(pattern)
-        print(new_today_resident)
-        print()
         new_content: str = pattern.sub(
             f"\\1\n{new_today_resident}\n\\2",
             self.content,
         )
-        print(new_content)
         return ReadmeMd(content=new_content)
 
 
