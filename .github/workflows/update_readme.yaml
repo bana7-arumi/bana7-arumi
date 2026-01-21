@@ -15,7 +15,7 @@ jobs:
         with:
           python-version: "3.x"
       - name: Run script
-        run: python scripts/update_readme.py
+        run: python scripts/main.py
       - name: Commit and Push
         run: |
           git config user.name "github-actions[bot]"
