@@ -1,4 +1,4 @@
-name: Daily Touhou Character
+name: Update Todays Resident
 
 on:
   schedule:
@@ -7,7 +7,10 @@ on:
 
 jobs:
   update:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -16,9 +19,7 @@ jobs:
         uses: astral-sh/setup-uv@v5
         with:
           enable-cache: true
-
-      - name: Set up Python
-        run: uv python install 3.13
+          python-version: "3.13"
 
       - name: Run update script
         run: |
@@ -30,5 +31,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git commit -m "Update daily character" || exit 0
+          git commit -m "Update todays resident" || exit 0
           git push
