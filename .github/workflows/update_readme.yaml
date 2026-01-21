@@ -9,13 +9,22 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
         with:
-          python-version: "3.x"
-      - name: Run script
-        run: python scripts/main.py
+          enable-cache: true
+
+      - name: Set up Python
+        run: uv python install 3.13
+
+      - name: Run update script
+        run: |
+          uv sync --frozen
+          uv run scripts/main.py
+
       - name: Commit and Push
         run: |
           git config user.name "github-actions[bot]"
