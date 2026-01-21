@@ -1,14 +1,12 @@
-<link href="./stylesheet.css" rel="stylesheet"></link>
-<h1 align="center">Hi 👋, I'm Bana7</h1>
+# Hi 👋, I'm Bana7
 
 ### 🔮 Today's Resident
 
-<div style="display: flex; flex-flow: column; align-items: center">
 <!-- todays-resident-start -->
-<img src='assets/th/rin.png' width='100px'>
-<p>rin</p>
+**nitori**
+
+<img src='assets/th/nitori.png' width='200px'>
 <!-- todays-resident-end -->
-</div>
 
 ---
 

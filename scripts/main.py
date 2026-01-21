@@ -15,7 +15,8 @@ class ReadmeMd(BaseModel):
     TODAYS_RESIDENT_START_TAG: ClassVar[str] = "<!-- todays-resident-start -->"
     TODAYS_RESIDENT_END_TAG: ClassVar[str] = "<!-- todays-resident-end -->"
     TODAYS_RESIDENT_TEMPLATE: ClassVar[str] = (
-        "<img src='{resident_image_path}' width='100px'>\n<p>{resident_name}</p>"
+        "**{resident_name}**\n\n"
+        "<img src='{resident_image_path}' width='200px'>"
     )
 
     content: Final[str]
