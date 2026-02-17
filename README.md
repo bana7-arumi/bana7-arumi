@@ -3,9 +3,9 @@
 ### 🔮 Today's Resident
 
 <!-- todays-resident-start -->
-**nitori**
+**hina**
 
-<img src='assets/th/nitori.png' width='200px'>
+<img src='assets/th/hina.png' width='200px'>
 <!-- todays-resident-end -->
 
 ---
