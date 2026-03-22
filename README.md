@@ -3,9 +3,9 @@
 ### 🔮 Today's Resident
 
 <!-- todays-resident-start -->
-**rin**
+**daiyousei**
 
-<img src='assets/th/rin.png' width='200px'>
+<img src='assets/th/daiyousei.png' width='200px'>
 <!-- todays-resident-end -->
 
 ---
