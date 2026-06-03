@@ -3,9 +3,9 @@
 ### 🔮 Today's Resident
 
 <!-- todays-resident-start -->
-**daiyousei**
+**nitori**
 
-<img src='assets/th/daiyousei.png' width='200px'>
+<img src='assets/th/nitori.png' width='200px'>
 <!-- todays-resident-end -->
 
 ---
