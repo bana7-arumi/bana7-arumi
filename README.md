@@ -3,9 +3,9 @@
 ### 🔮 Today's Resident
 
 <!-- todays-resident-start -->
-**yuyuko**
+**suwako**
 
-<img src='assets/th/yuyuko.png' width='200px'>
+<img src='assets/th/suwako.png' width='200px'>
 <!-- todays-resident-end -->
 
 ---
